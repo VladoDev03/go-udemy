@@ -44,4 +44,10 @@ func main() {
 	fmt.Print(" ")
 	numbers = append(numbers, 6)
 	fmt.Println(numbers)
+
+	discountPrices := []float64{101.99, 80.99, 20.59}
+	fmt.Println(updatedNumbers)
+	fmt.Println(discountPrices)
+	updatedNumbers = append(updatedNumbers, discountPrices...)
+	fmt.Println(updatedNumbers)
 }
