@@ -25,8 +25,8 @@ func main() {
 
 	formattedFV := fmt.Sprintf("Future Real Value: %.2f", futureRealValue)
 
-	fmt.Println(futureValue)
-	fmt.Println(futureRealValue)
+	fmt.Println("Future Value:", futureValue)
+	fmt.Println("Future Real Value:", futureRealValue)
 
 	fmt.Printf("Future Real Value: %v", futureRealValue)
 	fmt.Println()
